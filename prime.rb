@@ -6,9 +6,7 @@ def prime?(arg)
   xyz = []
 
     x = y.each do |x|
-      if (x < 0)
-        xyz << x
-      elsif  ( arg % x == 0) && (arg != x) && ( x != 1 )
+      if ( arg % x == 0) && (arg != x) && ( x != 1 )
         xyz << x
         false
       elsif ( arg % x == 0 ) && (xyz.length >= 0)
