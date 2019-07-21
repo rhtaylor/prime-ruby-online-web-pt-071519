@@ -20,3 +20,4 @@ def prime?(arg)
     end
     xyz.length == 0 ? true : false
   end
+end
