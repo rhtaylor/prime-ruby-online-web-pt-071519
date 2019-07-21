@@ -16,5 +16,5 @@ def prime?(arg)
       end
 
     end
-    x
+    xyz.length == 0 ? true : false
   end
