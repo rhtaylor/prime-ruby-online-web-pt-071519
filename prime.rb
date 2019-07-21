@@ -1,5 +1,5 @@
 def prime?(arg)
-  if arg < 0
+  if arg <= 0
     false
   else
   y = (2..arg).to_a
